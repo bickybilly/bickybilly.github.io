@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Vicky Bilbily
 tagline:          '~'
-description:      'Art/computer person'
+description:      'art/computer person'
 url:              http://bickybilly.github.io/
 baseurl:          /
 
@@ -16,9 +16,5 @@ author:
   name:           'Vicky Bilbily'
 
 paginate:         0
-
-# Custom vars
-github:
-  repo:           https://github.com/poole/hyde
   
 resume: https://docs.google.com/document/d/13EecgQWgQpT8a5UK0m3rDmD-V4R9PlMqx7cdtkozpf0/edit?usp=sharing

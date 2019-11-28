@@ -82,6 +82,11 @@ $(document).ready(function() {
 //    $(window).click(function(event){
 //        sparkle(20);
 //    });
+                         
+    //new sparkles on window resize
+    $(window).resize(function() {
+       sparkle(20);
+    });
 
     view.onFrame = function(event){
         if ((event.count%slowness)==0){

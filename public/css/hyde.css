@@ -78,7 +78,6 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Roboto Slab", sans-serif;
   font-size: 3.25rem;
 }
 
@@ -89,6 +88,8 @@ html {
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.15rem;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {

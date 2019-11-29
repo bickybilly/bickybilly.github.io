@@ -1,4 +1,5 @@
 ---
+permalink: /art/
 layout: images
 title: Art
 ---

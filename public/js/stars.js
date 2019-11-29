@@ -1,9 +1,11 @@
 paper.install(window);
 $(document).ready(function() {
-
-    var windowW = $(window).width();
-
+                
     paper.setup('myCanvas');
+                  
+    var canvas = $("#myCanvas")
+    var canW = canvas.width()
+    var canH = canvas.height()
 
     //sparkle time
     var stars = [];
@@ -13,12 +15,18 @@ $(document).ready(function() {
         project.activeLayer.removeChildren();
         //on start:
         for (var i = 0; i < numSparkles; i++ ){
+            // Half as many stars
             stars.push(randomStar());
             sparkles.push(randomSparkle());
         }
     }
 
     //sparkle helper functions
+                  
+    function calcNumSparkles() {
+          // based on area
+          return (canW * canH) / 10000
+    }
 
     function randomNum(min, max){
         return Math.floor((Math.random() * (max+1)) + min);
@@ -31,20 +39,21 @@ $(document).ready(function() {
             new Path.Line(new Point(20,10), new Point(10,20))
             ],
             strokeColor: "#ADD8E6",
+            opacity: 0.75
         });
-        newSparkle.translate(randomNum(0,600),randomNum(0,1000));
+        newSparkle.translate(randomNum(0,canW),randomNum(0,canH));
         newSparkle.rotate(45);
     }
 
     function randomStar(){
         var radius = randomNum(1,2);
         var newStar = new Path.Star({
-            center: new Point(randomNum(0,600),randomNum(0,600)),
+            center: new Point(randomNum(0,canW),randomNum(0,canH)),
             radius1: radius,
             radius2: radius*randomNum(2,3),
             points: 4,
             fillColor: "white",
-            opacity: 0.8,
+            opacity: 0.75,
             shadowColor: new Color(0,0,0,1),
             shadowBlur: 6
         });
@@ -68,6 +77,16 @@ $(document).ready(function() {
     function onMouseDrag(event){
         this.position += event.delta;
     }
+                         
+     function updateSize() {
+         var parent = canvas.parent()
+         canvas.height(parent.height())
+         canvas.width(parent.width())
+          canW = canvas.width()
+          canH = canvas.height()
+         view.viewSize = new Size(canW, canH);
+         sparkle(calcNumSparkles());
+     }
 
     //animation speed params
     var frame = 0;
@@ -75,8 +94,9 @@ $(document).ready(function() {
     var slowness = 5;
     var totalFrames = 10
                          
-    //call sparkle!
-    sparkle(20);
+    //BEGIN: set size & call sparkle!
+    updateSize()
+    sparkle(calcNumSparkles());
     
     //new sparkles for every click
 //    $(window).click(function(event){
@@ -85,7 +105,7 @@ $(document).ready(function() {
                          
     //new sparkles on window resize
     $(window).resize(function() {
-       sparkle(20);
+        updateSize()
     });
 
     view.onFrame = function(event){

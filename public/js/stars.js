@@ -18,7 +18,9 @@ $(document).ready(function() {
             //on start:
             for (var i = 0; i < numSparkles; i++ ){
                 // Half as many stars
-                stars.push(randomStar());
+                if (i < numSparkles / 2) {
+                  stars.push(randomStar());
+                }
                 sparkles.push(randomSparkle());
             }
         }
@@ -50,7 +52,7 @@ $(document).ready(function() {
         function randomStar(){
             var radius = randomNum(1,2);
             var newStar = new Path.Star({
-                center: new Point(randomNum(0,canW),randomNum(0,canH)),
+                center: new Point(randomNum(0,canW),randomNum(0,canH*0.65)),
                 radius1: radius,
                 radius2: radius*randomNum(2,3),
                 points: 4,

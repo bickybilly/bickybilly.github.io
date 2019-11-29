@@ -20,4 +20,4 @@ I'm into the arts & interaction design.
 
 * [Philosophize This!](https://philosophizethis.org)- a beginner-friendly philosophy podcast
 * [Rilakkuma & Kaoru](https://www.netflix.com/ca/title/80196883)- a both adorable and relatable stop-motion animated series
-* [Monument Valley](https://www.monumentvalleygame.com/mv2)- my fav example of an beautiful multimedia experience
+* [Monument Valley](https://www.monumentvalleygame.com/mv2)- my fav example of a beautiful multimedia experience

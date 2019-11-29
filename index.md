@@ -2,16 +2,23 @@
 layout: default
 title: Home
 ---
-# Hi! :-)
+# Hi! My name is Vicky.
 
-<p class = "message">
-My name is Vicky. I'm an art, science, and software enthusiast. I'm inspired by beautiful experiences, both organic and man-made. Of the latter, I'm especially interested in art, animation, music, video-games, and just about any kind of interface with a smooth, feels-so-good interaction. As a technologist, I hope to build tools to support the creation of such experiences.
-</p>
+I'm into the arts & interaction design.
 
 ***
 
-#### Lately, I'm working on:
+### Lately, I'm...
+
+#### Working on:
 
 * a Masters degree in Human-Computer Interaction at the [University of Toronto](http://www.dgp.toronto.edu).
-* my life-drawing and painting skills
-* [taking care of my plant babies 🌱](https://www.youtube.com/watch?v=l0vrsO3_HpU)
+* the usual [drawing and painting](https://bickybilly.github.io/art/)
+* learning to play the cello
+* taking care of my [plant babies 🌱](https://www.youtube.com/watch?v=l0vrsO3_HpU)
+
+#### Inspired by:
+
+* [Philosophize This!](https://philosophizethis.org), a beginner-friendly philosophy podcast
+* [Rilakkuma & Kaoru](https://www.netflix.com/ca/title/80196883), a both adorable and relatable stop-motion animated series
+* [Monument Valley](https://www.monumentvalleygame.com/mv2), a near-perfect multimedia experience

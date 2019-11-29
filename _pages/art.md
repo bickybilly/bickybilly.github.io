@@ -4,4 +4,4 @@ layout: images
 title: Art
 ---
 
-An assortment of art, mostly sketches. Warning: some nudity via. life drawing!
+Assorted sketches, figure drawings, paintings, etc. More [@bickybilly](https://www.instagram.com/bickybilly/).

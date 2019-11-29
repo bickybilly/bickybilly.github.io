@@ -1,0 +1,27 @@
+
+#canvasWrap{
+	height: 100%;
+	bottom: 0; /* increase for footer use */
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-image: linear-gradient(to bottom, #051937, #1a3756, #325876, #4c7b96, #6a9fb5);
+    text-align: center;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size:cover;
+    overflow:invisible;
+}
+
+#myCanvas {
+	height: 100%;
+    width: 100%;
+	bottom: 0; /* increase for footer use */
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+    overflow:invisible;
+}

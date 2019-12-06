@@ -12,6 +12,23 @@
     overflow: invisible;
 }
 
+.masonry {
+    height: 700px;
+    width: 100%;
+    overflow-x: auto;
+    white-space:nowrap;
+}
+
+.masonry .item {
+    display: inline-block;
+    height: 700px;
+}
+
+img {
+    max-height: 650px;
+/*    max-height: 200px;*/
+}
+
 /* Scale canvas with resize attribute to full size */
 /*canvas[resize] {*/
 /*    width: 100%;*/

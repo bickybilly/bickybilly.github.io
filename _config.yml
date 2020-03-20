@@ -17,7 +17,7 @@ author:
 
 include: ['_pages']
 
-#paginate:         0
+# paginate:         5
 
 # Other
 resume: https://docs.google.com/document/d/13EecgQWgQpT8a5UK0m3rDmD-V4R9PlMqx7cdtkozpf0/edit?usp=sharing

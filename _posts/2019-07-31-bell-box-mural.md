@@ -8,8 +8,9 @@ excerpt_separator: <!--more-->
 
 The [Bell Box Murals Project](https://www.facebook.com/bellboxmuralsproject/) is a Toronto-based public arts program which aims to beautify community streets by replacing vandalism and graffiti with commissioned work by local artists. Through the program, I had the opportunity to design and paint an electrical box mural in the Discovery District of downtown Toronto.
 
-The design is a mash-up of my typical stylized subject matter with technological themes. I wanted to leave my mark on the city by creating something that would be unmistakably mine, while also bringing light to the pervasiveness of computer science innovation in the area-- in industry, in academia, and in my own life, just steps away at U of T.
  <!--more-->
+
+The design is a mash-up of my typical stylized subject matter with technological themes. I wanted to leave my mark on the city by creating something that would be unmistakably mine, while also bringing light to the pervasiveness of computer science innovation in the area-- in industry, in academia, and in my own life, just steps away at U of T.
 
 ## Overview
 

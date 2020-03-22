@@ -1,0 +1,24 @@
+---
+permalink: /latelies/
+layout: page
+title: 
+---
+<div class="back">
+    <h1><a href="/">←</a></h1>
+</div>
+
+
+<div class="posts">
+  {% for post in site.categories.lately  %}
+  <div class="post">
+    <h1 class="post-title">
+        {{ post.title }}
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+
+  </div>
+  {% endfor %}
+</div>

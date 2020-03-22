@@ -2,6 +2,7 @@
 layout: post
 title: Do Androids Dream of Electric Sheep?
 excerpt_separator: <!--more-->
+categories: [project]
 ---
 
 ![Completed mural](/public/imgs/mural/complete-front.jpg)

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Space Time Planner
+title: Space-Time Planner
 excerpt_separator: <!--more-->
+categories: [project]
 ---
 
 ![University of Toronto Department of Computer Science logo](https://images.squarespace-cdn.com/content/v1/5c8e9a223560c34f9070706f/1584117182341-P48MTCA7MDXB57QM6QL1/ke17ZwdGBToddI8pDm48kJ76nH85aza3J1kOSUxUUQsUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnHyTjHFnbVqz2a3skCZF3VMl39tOtb9mNFVdjjN0V38UY8HhU9A19BklyivaDE3oZA/Computer+Science+%28Blue%29-01.png) 

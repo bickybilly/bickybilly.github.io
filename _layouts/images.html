@@ -4,10 +4,9 @@ layout: page
 
 {{ content }}
 
-<div class = "masonry">
+<div>
 {% for image in site.static_files %}
 {% if image.path contains 'imgs/art' %}
-<!--    <p>{{image.basename}}</p>-->
     <div class = "item">
         <img src="{{image.path}}">
     </div>

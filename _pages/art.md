@@ -4,4 +4,4 @@ layout: images
 title: Art
 ---
 
-Assorted sketches, figure drawings, paintings, etc. More [@bickybilly](https://www.instagram.com/bickydoodles/).
+Assorted sketches, figure drawings, paintings, etc. More [@bickydoodles](https://www.instagram.com/bickydoodles/).

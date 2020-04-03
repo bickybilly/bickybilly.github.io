@@ -10,7 +10,7 @@ My internet presence.
 
 [LinkedIn](https://www.linkedin.com/in/vicky-bilbily-014126a7/)
 
-[Instagram](https://www.instagram.com/bickybilly/)
+[Instagram](https://www.instagram.com/bickydoodles/)
 
 [Last.fm](https://www.last.fm/user/bickybilly)
 
